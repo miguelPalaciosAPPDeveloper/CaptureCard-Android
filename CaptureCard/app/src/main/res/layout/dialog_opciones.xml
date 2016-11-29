@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/drawable_dialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/dialog_title_opciones"
+            android:textStyle="bold"
+            android:layout_marginEnd="70dp"
+            android:layout_marginStart="100dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/textView4" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonSalir"
+            android:layout_marginBottom="15dp"
+            android:background="@android:drawable/editbox_background"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:text="@string/dialog_boton_editar"
+        android:id="@+id/buttonEditar"
+        android:background="@android:drawable/editbox_background"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_boton_borrar"
+        android:textStyle="bold"
+        android:id="@+id/buttonBorrar"
+        android:background="@android:drawable/editbox_background"
+        android:textColor="@android:color/darker_gray"/>
+
+</LinearLayout>

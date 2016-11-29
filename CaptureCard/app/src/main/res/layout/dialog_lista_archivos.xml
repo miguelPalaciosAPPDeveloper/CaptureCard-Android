@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_dialog"
+    android:layout_gravity="center">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/listViewTextos" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:text="@string/dialog_boton_cancelar"
+        android:id="@+id/buttonCancelar"
+        android:background="@android:drawable/editbox_background"/>
+</LinearLayout>

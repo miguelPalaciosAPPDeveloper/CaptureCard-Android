@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CaptureCard</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_item_buscar">Buscar</string>
+    <string name="menu_hint_buscador">Buscar</string>
+
+    <string name="layout_item_empresa">EMPRESA:</string>
+    <string name="layout_item_nombre">NOMBRE:</string>
+    <string name="layout_item_correo">CORREO:</string>
+    <string name="layout_item_telefono1">TELEFONO1:</string>
+    <string name="layout_item_telefono2">TELEFONO2:</string>
+
+    <string name="title_activity_activity_Main">CAPTURECARD</string>
+    <string name="title_activity_activity_preview">VISTA PREVIA</string>
+    <string name="title_activity_activity_datos_tarjeta">DATOS DE TARJETA</string>
+
+    <string name="preview_tarjetas_empresa">Empresa</string>
+    <string name="preview_tarjetas_nombre">Nombre</string>
+    <string name="preview_tarjetas_correo">Correo</string>
+    <string name="preview_tarjetas_telefono1">Telefono1</string>
+    <string name="preview_tarjetas_telefono2">Telefono2</string>
+    <string name="preview_tarjetas_botonGuardar">Guardar</string>
+    <string name="preview_tarjetas_botonCancelar">Cancelar</string>
+    <string name="preview_tarjetas_botonOpciones">Opciones</string>
+
+    <string name="toast_no_hay_mas_datos">"No hay más datos que mostrar"</string>
+    <string name="toast_no_se_obtuvo_informacion">"No se pudo obtener información"</string>
+    <string name="toast_tarjeta_borrada">"Tarjeta borrada"</string>
+    <string name="toast_no_se_pudo_borrar_tarjeta">"No se pudo borrar la tarjeta"</string>
+    <string name="toast_tarjeta_guardada">"Cambios guardados"</string>
+    <string name="toast_no_se_pudo_guardar_tarjeta">"No se guardaron los cambios"</string>
+    <string name="toast_no_hay_cambios">No hay cambios</string>
+    <string name="toast_informacion_obtenida">"Información obtenida"</string>
+    <string name="toast_no_hay_numero">No hay número para marcar</string>
+
+    <string name="dialog_boton_cancelar">CANCELAR</string>
+    <string name="dialog_boton_editar">EDITAR</string>
+    <string name="dialog_boton_guardar">GUARDAR</string>
+    <string name="dialog_boton_borrar">BORRAR</string>
+    <string name="dialog_title_opciones">OPCIONES</string>
+    <string name="dialog_boton_si">SI</string>
+    <string name="dialog_boton_no">NO</string>
+    <string name="dialog_title_borrar">¿Desea borrar esta tarjeta?</string>
+</resources>
